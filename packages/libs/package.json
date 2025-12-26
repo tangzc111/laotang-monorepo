@@ -4,9 +4,9 @@
   "description": "Common formatting and validation utilities",
   "license": "MIT",
   "source": "src/index.ts",
-  "main": "dist/libs.cjs.js",
+  "main": "dist/libs.js",
   "module": "dist/libs.esm.js",
-  "types": "dist/libs.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
