@@ -1,7 +1,7 @@
 {
   "name": "@tzc/hooks",
   "version": "1.0.1",
-  "description": "Common formatting and validation utilities",
+  "description": "Reusable React hooks (immer helpers, storage, toggles, etc.)",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/hooks.js",
@@ -15,10 +15,11 @@
     "clean": "rimraf dist"
   },
   "keywords": [
-    "utils",
-    "format",
-    "validate",
-    "monorepo"
+    "react",
+    "hooks",
+    "immer",
+    "localstorage",
+    "state"
   ],
   "author": "laotang",
   "peerDependencies": {
