@@ -1,6 +1,6 @@
 {
   "name": "@tzc/libs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Common formatting and validation utilities for JS/TS projects",
   "license": "MIT",
   "source": "src/index.ts",

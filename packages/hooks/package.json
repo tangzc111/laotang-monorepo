@@ -1,6 +1,6 @@
 {
   "name": "@tzc/hooks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reusable React hooks (immer helpers, storage, toggles, etc.)",
   "license": "MIT",
   "source": "src/index.ts",
