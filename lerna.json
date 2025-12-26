@@ -13,7 +13,7 @@
       "message": "chore(release): publish"
     },
     "publish": {
-      "registry": "https://localhost:4873/",
+      "registry": "http://localhost:4873/",
       "verifyAccess": false
     },
     "run": {
