@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "npmClient": "pnpm",
+  "version": "independent",
+  "packages": ["packages/*", "apps/*"],
+  "ignoreChanges": ["**/node_modules/**", "**/__snapshots__/**"],
+  "command": {
+    "version": {
+      "allowBranch": ["main", "master"],
+      "conventionalCommits": true,
+      "changelogPreset": "conventionalcommits",
+      "tagVersionPrefix": "",
+      "message": "chore(release): publish"
+    },
+    "publish": {
+      "registry": "https://localhost:4873/",
+      "verifyAccess": false
+    },
+    "run": {
+      "stream": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@tzc/libs",
+  "version": "1.0.0",
+  "description": "Common formatting and validation utilities",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/libs.cjs.js",
+  "module": "dist/libs.esm.js",
+  "types": "dist/libs.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle --tsconfig tsconfig.json",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "utils",
+    "format",
+    "validate",
+    "monorepo"
+  ],
+  "author": "laotang",
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "rimraf": "^5.0.5"
+  }
+}
