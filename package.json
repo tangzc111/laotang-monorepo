@@ -11,5 +11,8 @@
   "description": "",
   "dependencies": {
     "lerna": "^9.0.3"
+  },
+  "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^9.1.0"
   }
 }
