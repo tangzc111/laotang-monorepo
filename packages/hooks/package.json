@@ -1,6 +1,6 @@
 {
   "name": "@tzc/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common formatting and validation utilities",
   "license": "MIT",
   "source": "src/index.ts",
